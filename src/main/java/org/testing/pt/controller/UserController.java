@@ -25,7 +25,7 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public Mono<User> getUserById(@PathVariable String id) {
+    public Mono<User> getUserById(@PathVariable("id") String id) {
         return userService.getUserById(id)
                 .switchIfEmpty(Mono.error(new RuntimeException("User not found with id: " + id)));
     }

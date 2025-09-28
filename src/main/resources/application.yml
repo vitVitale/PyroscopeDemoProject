@@ -10,7 +10,7 @@ spring:
 logging:
   level:
     org.testing.pt: DEBUG
-    org.springframework.web: DEBUG
+    org.springframework.web: INFO
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
 
