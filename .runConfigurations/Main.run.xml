@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <module name="PyroscopeDemoProject" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="org.testing.pt.Main" />
+    <option name="VM_PARAMETERS" value="-javaagent:pyroscope-agent-2.1.2.jar -Dpyroscope.application.name=webflux-user-api -Dpyroscope.server.address=http://localhost:4040 -Dpyroscope.format=jfr -Dpyroscope.profiler.event=cpu,alloc,lock -Dpyroscope.profiler.alloc=512k -Dpyroscope.profiler.lock=10ms -Dpyroscope.upload.interval=5s" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
